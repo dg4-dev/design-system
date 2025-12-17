@@ -78,7 +78,7 @@ function renderColors() {
 
   let colorsToDisplay;
   if (isFilteredGEqualsB) {
-    const filteredColors = sortedColors.filter((color) => color.r < color.g && color.g === color.b);
+    const filteredColors = sortedColors.filter((color) => color.r <= color.g && color.g === color.b);
     colorsToDisplay = nearestNeighborSort(filteredColors);
   } else {
     colorsToDisplay = sortedColors;
