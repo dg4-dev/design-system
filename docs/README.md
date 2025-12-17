@@ -1,6 +1,8 @@
-# dg4 All Colors
+# dgdgdgdg Brand Color
 
 **dgdgdgdg** のブランドカラーパレット
+
+![dgdgdgdg Brand Color](./dgdgdgdg-brand-color.png)
 
 ## プロジェクト概要
 
