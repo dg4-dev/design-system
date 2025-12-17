@@ -32,12 +32,14 @@
 
 ```
 all-colors/
-├── index.html          # メインHTMLファイル
-├── script.js           # 色生成・ソート・描画ロジック
+├── docs/
+│   └── dgdgdgdg-brand-color.png # ブランドカラーパレットの画像
+│   └── README.md           # このファイル
 ├── styles/
 │   ├── reset.css       # CSSリセット
 │   └── style.css       # スタイル定義
-└── README.md           # このファイル
+├── index.html          # メインHTMLファイル
+└── script.js           # 色生成・ソート・描画ロジック
 ```
 
 ### 技術仕様
