@@ -8,8 +8,9 @@
 
 ## フォントファミリ
 
-- **ディスプレイ・見出し**: DG4 Atomic Dot, system-ui, sans-serif
+- **ディスプレイ**: DG4 Atomic Dot, system-ui, sans-serif
   - GitHub: [DG4 Atomic Dot](https://github.com/dg4-dev/atomic-dot/raw/refs/heads/main/var-fonts/DG4AtomicDot-SquareVF.ttf)
+- **見出し**: Zen Kaku Gothic New, system-ui, sans-serif
 - **UI**: Zen Kaku Gothic New, system-ui, sans-serif
   - Google Fonts: [Zen Kaku Gothic New](https://fonts.google.com/specimen/Zen+Kaku+Gothic+New)
 - **本文**: Zen Old Mincho, system-ui, serif
