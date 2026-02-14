@@ -12,12 +12,12 @@ dg4-system は「dgdgdgdg」のアイデンティティを形づくるデザイ�
 
 ## モジュール一覧
 
-| モジュール | 説明 | ドキュメント |
-| ---------- | ------ | ------------ |
-| **Color** | 16 進 `0`, `4`, `d` のみで構成する 729 色のブランドカラーパレット。最近傍法によるグラデーション表示とインタラクティブな色探索用の Web アプリを含む。 | [color/docs/README.md](color/docs/README.md) · [USAGE](color/docs/USAGE.md) |
-| **Typography** | フォントファミリ（DG4 Atomic Dot, Zen Kaku Gothic New, Zen Old Mincho）、タイプスケール（Display / H1–H3 / Body / Caption）、字重・行間の定義。 | [typography/docs/README.md](typography/docs/README.md) |
-| **Spacing** | 基準 0.25rem のスペーシングスケール（0, 1, 2, … 16）。コンポーネント間・セクション間の余白の統一に使用。 | [spacing/docs/README.md](spacing/docs/README.md) |
-| **Logo** | ロゴバリアント（row / square）、クリアスペース・最小サイズ・禁止事項。SVG アセット（row.svg, square.svg）を含む。 | [logo/docs/README.md](logo/docs/README.md) |
+| モジュール     | 説明                                                                                                                                                 | ドキュメント                                                                |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Color**      | 16 進 `0`, `4`, `d` のみで構成する 729 色のブランドカラーパレット。最近傍法によるグラデーション表示とインタラクティブな色探索用の Web アプリを含む。 | [color/docs/README.md](color/docs/README.md) · [USAGE](color/docs/USAGE.md) |
+| **Typography** | フォントファミリ（DG4 Atomic Dot, Zen Kaku Gothic New, Zen Old Mincho）、タイプスケール（Display / H1–H3 / Body / Caption）、字重・行間の定義。      | [typography/docs/README.md](typography/docs/README.md)                      |
+| **Spacing**    | 基準 0.25rem のスペーシングスケール（0, 1, 2, … 16）。コンポーネント間・セクション間の余白の統一に使用。                                             | [spacing/docs/README.md](spacing/docs/README.md)                            |
+| **Logo**       | ロゴバリアント（row / square）、クリアスペース・最小サイズ・禁止事項。SVG アセット（row.svg, square.svg）を含む。                                    | [logo/docs/README.md](logo/docs/README.md)                                  |
 
 ---
 
@@ -54,9 +54,6 @@ dg4-system/
 ## 使い方
 
 - **カラー**: `color/index.html` をブラウザで開くと 729 色パレットが表示されます。クリックでシアン系のみのフィルタ（詳細は [color/docs/USAGE.md](color/docs/USAGE.md)）。
-- **タイポグラフィ**: 各フォント・スケールの値は [typography/docs/README.md](typography/docs/README.md) の表および `styles/style.css` の CSS 変数を参照。プレビュー用に `index.html` がある場合はそちらで確認。
-- **スペーシング**: [spacing/docs/README.md](spacing/docs/README.md) のトークン表を参照し、プロジェクトの CSS やデザインツールのスペーシングに適用。
-- **ロゴ**: [logo/docs/README.md](logo/docs/README.md) のクリアスペース・最小サイズ・禁止事項に従い、`logo/assets/` の SVG を使用。
 
 ---
 
