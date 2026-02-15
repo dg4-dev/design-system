@@ -2,9 +2,9 @@
 
 **dgdgdgdg** のロゴ
 
-![dgdgdgdg Logo](../assets/row.svg)
+![dgdgdgdg Logo](/logo/assets/row.svg)
 
-![dgdgdgdg Logo](../assets/square.svg)
+![dgdgdgdg Logo](/logo/assets/square.svg)
 
 ## プロジェクト概要
 
@@ -45,14 +45,3 @@
 - 色の独自変更（ブランドカラー以外の適用）を行わない
 - 回転・傾斜を行わない
 - 縁取り・影の付与（ガイドラインで許可した場合を除く）を行わない
-
-## ファイル構成
-
-```
-logo/
-├── docs/
-│   └── README.md
-└── assets/
-    ├── row.svg
-    └── square.svg
-```
