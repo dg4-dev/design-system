@@ -1,0 +1,43 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | dg4-system</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700;900&family=Zen+Old+Mincho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="/" class="site-logo">
+        <img src="/logo/assets/square.svg" alt="dg4" width="24" height="24" />
+        <span>dg4-system</span>
+      </a>
+      <ul>
+        <li><a href="/color/">Color</a></li>
+        <li><a href="/color/app">Palette</a></li>
+        <li><a href="/typography">Typography</a></li>
+        <li><a href="/spacing">Spacing</a></li>
+        <li><a href="/logo">Logo</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <slot />
+    </main>
+  </body>
+</html>
+

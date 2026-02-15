@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const { Content } = await import("../../README.md");
+---
+
+<BaseLayout title="ホーム">
+  <article class="prose">
+    <Content />
+  </article>
+</BaseLayout>
