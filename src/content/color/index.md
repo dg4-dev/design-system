@@ -2,7 +2,7 @@
 
 **dgdgdgdg** のブランドカラーパレット
 
-![dgdgdgdg Brand Color](./dgdgdgdg-brand-color.png)
+![dgdgdgdg Brand Color](/color/docs/dgdgdgdg-brand-color.png)
 
 ## プロジェクト概要
 
@@ -32,4 +32,4 @@
 
 ## 使用方法
 
-[使用方法](USAGE.md)
+[使用方法](./usage)
