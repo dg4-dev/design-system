@@ -12,12 +12,12 @@ dg4-system は「dgdgdgdg」のアイデンティティを形づくるデザイ�
 
 ## モジュール一覧
 
-| モジュール     | 説明                                                                                                                                                 | ドキュメント                                                                |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **Color**      | 16 進 `0`, `4`, `d` のみで構成する 729 色のブランドカラーパレット。最近傍法によるグラデーション表示とインタラクティブな色探索用の Web アプリを含む。 | [color/docs/README.md](color/docs/README.md) · [USAGE](color/docs/USAGE.md) |
-| **Typography** | フォントファミリ（DG4 Atomic Dot, Zen Kaku Gothic New, Zen Old Mincho）、タイプスケール（Display / H1–H3 / Body / Caption）、字重・行間の定義。      | [typography/docs/README.md](typography/docs/README.md)                      |
-| **Spacing**    | 基準 0.25rem のスペーシングスケール（0, 1, 2, … 16）。コンポーネント間・セクション間の余白の統一に使用。                                             | [spacing/docs/README.md](spacing/docs/README.md)                            |
-| **Logo**       | ロゴバリアント（row / square）、クリアスペース・最小サイズ・禁止事項。SVG アセット（row.svg, square.svg）を含む。                                    | [logo/docs/README.md](logo/docs/README.md)                                  |
+| モジュール     | 説明                                                                                                                                                 | ドキュメント                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| **Color**      | 16 進 `0`, `4`, `d` のみで構成する 729 色のブランドカラーパレット。最近傍法によるグラデーション表示とインタラクティブな色探索用の Web アプリを含む。 | [color](/color) · [usage](/color/usage) |
+| **Typography** | フォントファミリ（DG4 Atomic Dot, Zen Kaku Gothic New, Zen Old Mincho）、タイプスケール（Display / H1–H3 / Body / Caption）、字重・行間の定義。      | [typography](/typography)               |
+| **Spacing**    | 基準 0.25rem のスペーシングスケール（0, 1, 2, … 16）。コンポーネント間・セクション間の余白の統一に使用。                                             | [spacing](/spacing)                     |
+| **Logo**       | ロゴバリアント（row / square）、クリアスペース・最小サイズ・禁止事項。SVG アセット（row.svg, square.svg）を含む。                                    | [logo](/logo)                           |
 
 ---
 
