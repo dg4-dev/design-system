@@ -23,11 +23,4 @@ dg4-system は「dgdgdgdg」のアイデンティティを形づくるデザイ�
 
 ## 使い方
 
-- **カラー**: `color/index.html` をブラウザで開くと 729 色パレットが表示されます。クリックでシアン系のみのフィルタ（詳細は [color/docs/USAGE.md](color/docs/USAGE.md)）。
-
----
-
-## 動作・参照環境
-
-- **カラー Web アプリ**: モダンブラウザ（Chrome, Firefox, Safari, Edge 等）、JavaScript 有効。
-- **その他**: ドキュメントとアセット（SVG）の参照のみで、特別な実行環境は不要です。
+- **カラー**: [palette](/color/app) をブラウザで開くと 729 色パレットが表示されます。クリックでシアン系のみのフィルタ（詳細は [color/usage](/color/usage)）。
