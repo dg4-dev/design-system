@@ -18,6 +18,18 @@
 - 全色数: 9 × 9 × 9 = **729 色**
 - メインカラー: `#00d4d4`（開始色として使用）
 
+## コアカラー
+
+729 色パレットの中から選定した基本色。
+
+| 名前   | 色                                                                        | 値      | 用途               |
+| ------ | ------------------------------------------------------------------------- | ------- | ------------------ |
+| Accent | <div style="background-color: #00d4d4; width: 10px; height: 10px;"></div> | #00d4d4 | ブランドアクセント |
+| Black  | <div style="background-color: #000000; width: 10px; height: 10px;"></div> | #000000 | 背景・テキスト     |
+| White  | <div style="background-color: #dddddd; width: 10px; height: 10px;"></div> | #dddddd | 背景・テキスト     |
+
+※ White は一般的な `#ffffff` ではなく、0,4,d 制約に基づくパレット内の最明色 `#dddddd` を使用。
+
 ## 使用方法
 
 [使用方法](USAGE.md)
