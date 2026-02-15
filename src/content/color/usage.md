@@ -10,16 +10,19 @@
 
 ## 実装
 
-### ファイル構成（Astro 統合後）
+### ファイル構成
 
 ```
-src/
-├── content/color/
-│   ├── index.md        # プロジェクト概要・コアカラー
-│   └── usage.md       # 使用方法（本ドキュメント）
-└── pages/color/
-    ├── index.astro     # ドキュメント表示（Color）
-    └── app.astro       # 729 色パレットアプリ（スタイル・スクリプト統合）
+all-colors/
+├── docs/
+│   └── dgdgdgdg-brand-color.png # ブランドカラーパレットの画像
+│   └── README.md 　　　　　　　　# プロジェクト概要
+│   └── USAGE.md 　　　　　　　　# 使用方法
+├── styles/
+│   ├── reset.css       # CSSリセット
+│   └── style.css       # スタイル定義
+├── index.html          # メインHTMLファイル
+└── script.js           # 色生成・ソート・描画ロジック
 ```
 
 ### 技術仕様
@@ -39,7 +42,7 @@ src/
 
 ## 使用方法
 
-1. サイトの `/color/app` ページを開く
+1. `index.html` をブラウザで開く
 2. 729 色のブランドカラーパレットが表示される
 3. 画面をクリックするとシアン系の色のみを抽出・表示（再クリックで全色表示に戻る）
 
