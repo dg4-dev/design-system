@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Color Palette">
+  <article class="prose">
+    <h1>729 色パレット</h1>
+    <p>クリックでシアン系の色のみを表示。再クリックで全色表示に戻ります。</p>
+  </article>
+  <iframe
+    src="/color-app/index.html"
+    title="dgdgdgdg Brand Color Palette"
+  ></iframe>
+</BaseLayout>
+
+<style>
+  iframe {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    border-radius: 0.5rem;
+  }
+</style>

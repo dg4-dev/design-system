@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const { Content } = await import("../../spacing/docs/README.md");
+---
+
+<BaseLayout title="Spacing">
+  <article class="prose">
+    <Content />
+  </article>
+</BaseLayout>
